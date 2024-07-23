@@ -25,11 +25,7 @@ public class PostRepositoryImpl implements MyPostRepository{
 
     @Override
     public List<Post> findAll() {
-        for (Post post : blogpost) {
-            blogpost.add(post);
-            return blogpost;
-        }
-        return null;
+        return blogpost;
     }
 
     @Override
